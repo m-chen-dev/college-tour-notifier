@@ -5,6 +5,8 @@ from playwright.sync_api import Page
 
 UNIVERSITY = "Princeton"
 PRINCETON_CAMPUS_TOUR_URL = "https://apply.princeton.edu/portal/orange_key_tour"
+MONTH = "August"
+YEAR = "2026"
 
 def get_availability_status_princeton(page : Page):
     page.reload()
@@ -23,7 +25,7 @@ def get_availability_status_princeton(page : Page):
                 continue
             
             text_element = day.query_selector("a") 
-            date_available = f"July {text_element.text_content()} 2026" if text_element else ""
+            date_available = f"{MONTH} {text_element.text_content()} {YEAR}" if text_element else ""
             return AvailabilityStatus(True, format_message(UNIVERSITY, date_available))
         
     return AvailabilityStatus(False, None)

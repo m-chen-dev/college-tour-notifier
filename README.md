@@ -1,6 +1,6 @@
 # UNIVERSITY TOUR NOTIFIER
 
-## This project was created to find open dates for campus tours held in universities that I wanted to visit
+This project was created to find open dates for campus tours held in universities that I wanted to visit
 
 Essentially, it parses the university's websites every 60 seconds and if it finds available dates based on the targeted web element(s) containing a certain css class, it sends a Windows toast notification and potentially a message via Twilio if you have `ENABLE_SMS` set to True in the src/config.py file
 
