@@ -30,7 +30,7 @@ You can look at notifier.py to see how you should name the variables in your env
   pip install -r requirements.txt
   ```
 3. Run the notifier
-   ```
-   bash
-   python src/main.py
-   ```
+  ```
+  bash
+  python src/main.py
+  ```
