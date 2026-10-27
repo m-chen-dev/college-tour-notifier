@@ -13,3 +13,24 @@ If you want to add your own functions for checking the open dates of universitie
 * Register the university by adding it to the `University` enum class in src/check_availability/__init__.py and mapping that enum member with the corresponding `check_for_availability` function that you previously created inside the `university_checking` dictionary
 
 You can look at notifier.py to see how you should name the variables in your env file so that the program works
+
+## Stuff you may need (dependencies)
+* **Python** - You can download it [here](https://www.python.org/downloads/)
+
+## Building and Running
+1. Clone this repo
+  ```
+  bash
+  git clone https://github.com/m-chen-dev/college-tour-notifier/
+  cd college-tour-notifier
+  ```
+2. Install the dependencies
+  ```
+  bash
+  pip install -r requirements.txt
+  ```
+3. Run the notifier
+   ```
+   bash
+   python src/main.py
+   ```
