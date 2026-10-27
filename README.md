@@ -19,18 +19,15 @@ You can look at notifier.py to see how you should name the variables in your env
 
 ## Building and Running
 1. Clone this repo
-  ```
-  bash
+  ```bash
   git clone https://github.com/m-chen-dev/college-tour-notifier/
   cd college-tour-notifier
   ```
 2. Install the dependencies
-  ```
-  bash
+  ```bash
   pip install -r requirements.txt
   ```
 3. Run the notifier
-  ```
-  bash
+  ```bash
   python src/main.py
   ```
