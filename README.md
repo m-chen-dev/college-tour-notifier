@@ -4,6 +4,8 @@ This project was created to find open dates for campus tours held in universitie
 
 Essentially, it parses the university's websites every 60 seconds and if it finds available dates based on the targeted web element(s) containing a certain css class, it sends a Windows toast notification and potentially a message via Twilio if you have `ENABLE_SMS` set to True in the src/config.py file
 
+You can also click on the Windows toast notifications to directly open the URL to the college tour registration website.
+
 To use the existing program you can install each dependency through "pip install" and then clone this repository
 
 Then from the root level of the project run "python src/main.py"
@@ -31,3 +33,6 @@ You can look at notifier.py to see how you should name the variables in your env
   ```bash
   python src/main.py
   ```
+
+## Preview
+![Preview of running the university tour notifier](./screenshots/Preview.png)
