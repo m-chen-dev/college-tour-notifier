@@ -41,4 +41,6 @@ You can look at notifier.py to see how you should name the variables in your env
   ```
 
 ## Preview
-![Preview of running the university tour notifier](./screenshots/Preview.png)
+<p align="center">
+  <img width="1682" height="149" alt="Notifier preview" src="https://github.com/user-attachments/assets/66e897ac-5cfa-45b2-871e-d25b6fe1edc6" />
+</p>
