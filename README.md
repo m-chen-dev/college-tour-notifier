@@ -25,11 +25,22 @@ You can look at notifier.py to see how you should name the variables in your env
   git clone https://github.com/m-chen-dev/college-tour-notifier/
   cd college-tour-notifier
   ```
-2. Install the dependencies
+2. Create the venv environment
+  * **macOS/Linux**:
+    ```bash
+    python3 -m venv .venv
+    source .venv/bin/activate
+    ```
+  * **Windows**:
+    ```powershell
+    python -m venv .venv
+    .\.venv\Scripts\Activate.ps1
+    ```
+3. Install the dependencies
   ```bash
   pip install -r requirements.txt
   ```
-3. Run the notifier
+4. Run the notifier
   ```bash
   python src/main.py
   ```
