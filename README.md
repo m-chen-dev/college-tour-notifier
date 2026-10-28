@@ -16,8 +16,9 @@ If you want to add your own functions for checking the open dates of universitie
 
 You can look at notifier.py to see how you should name the variables in your env file so that the program works
 
-## Stuff you may need (dependencies)
-* **Python** - You can download it [here](https://www.python.org/downloads/)
+## Requirements
+* **Windows**
+* [Python](https://www.python.org/downloads/) 3.11 (64-bit), using the standard CPython distribution
 
 ## Building and Running
 1. Clone this repo
@@ -26,16 +27,10 @@ You can look at notifier.py to see how you should name the variables in your env
   cd college-tour-notifier
   ```
 2. Create the venv environment
-  * **macOS/Linux**:
-    ```bash
-    python3 -m venv .venv
-    source .venv/bin/activate
-    ```
-  * **Windows**:
-    ```powershell
-    python -m venv .venv
-    .\.venv\Scripts\Activate.ps1
-    ```
+  ```powershell
+  python -m venv .venv
+  .\.venv\Scripts\Activate.ps1
+  ```
 3. Install the dependencies
   ```bash
   pip install -r requirements.txt
